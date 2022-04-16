@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<script src = "bootstrap/js/bootstrap.min.js""></script>
+		<style>
+			.nav-item>.nav-link{
+				color:blue;
+				font-size:18px;
+				font-weight:bold;
+				
+				
+			}
+			.navbar-brand{
+				font-size:24px;
+				font-weight:bold;
+				color:blue
+			}
+			.jumbotron{
+				background-color:silver;
+				padding-left:3%;
+				padding-bottom:3%
+			}
+			h5, h2{
+				font-weight:bold;
+				color:blue
+			}
+                             
+			.card{
+				box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.2);
+			}
+			.contactus{
+				margin-top:2%; margin-bottom:2%
+			}
+			.form-group{
+				margin-top:2%; 
+			}
+			label{
+				text-align:right;
+			}
+		</style>
+	</head>
+	<div class = "container-fluid">
+		<div class = "row">
+			<div class ="col-md-12">
+				<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+				  <a class="navbar-brand" href="#" style = "padding-left:1%; color:blue">Ojas</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="main_nav">
+					<ul class="navbar-nav mx-auto">
+					<li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
+					<li class="nav-item"><a class="nav-link" href="#about"> About </a></li>
+					<li class="nav-item"><a class="nav-link" href="#service"> Services </a></li>
+					<li class="nav-item"><a class="nav-link" href="#contactus"> Contact-Us </a></li>
+					</ul>
+				  </div> <!-- navbar-collapse.// -->
+				</nav>
+			</div>
+		</div>
+		<div class = "row">
+			<div class ="col-md-12" style = "padding:0%">
+				<img src = "images/img1.jpg" alt="..." style = "width:100%; height:100%; margin:0%;">
+			</div>
+		</div>
+		<div class="row" style ="padding:5%" id = "about">
+			<div class ="col-md-8">
+				<h2> About Us</h2>
+				<p>Ojas Enterprise is modelized with a vision to provide a Software Development, web application development, Digital Marketing, 
+				IOT and Mobile App Development company with experienced IT consultants who can offer valuable business solutions. 
+				We help you and your business connect with customers, integrate with vendors and empower employees to work to their fullest potential.</p>
+			</div>
+			<div class ="col-md-4">
+				<img src = "images/svg1.svg" alt="..." style = "width:100%;">
+			</div>
+		</div>
+	</div>
+	<div class = "container-fluid">
+		<div class = "row jumbotron" id="service">
+			<div class = "col-md-12" style = "text-align:center; margin-top:2%; margin-bottom:2%">
+				<h2> Services </h2>
+				<p> Our expertise is in Web Application Development, UI/Front End Dev, Mobile App Dev, Mobile App Testing, Testing Services</p>
+			</div>
+			<div class = "col-md-3">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="images/service1.svg" alt="Card image cap" style = "padding:2%; width:100%; height:200px">
+				  <div class="card-body">
+					<h5>Web Development</h5>
+					<p class="card-text">Ojas Enterprise is here to provide a platform that combines smart web design with cutting-edge business principles 
+					to make your website incredibly attractive, user-friendly, and customer-friendly.</p>
+				  </div>
+				</div>
+			</div>
+			<div class = "col-md-3">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="images/service2.svg" alt="Card image cap" style = "padding:2%; width:100%; height:200px ">
+				  <div class="card-body">
+					<h5>Digital Marketing</h5>
+					<p class="card-text">Ojas Enterprise's Internet Marketing is a dynamic, versatile, and complete digital marketing agency that does not rely
+					on illusions to attract new customers.We're not a static organisation.</p>
+				  </div>
+				</div>
+			</div>
+			<div class = "col-md-3">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="images/service3.svg" alt="Card image cap" style = "padding:2%; width:100%; height:200px">
+				  <div class="card-body">
+					<h5>IOT Development</h5>
+					<p class="card-text">Ojas Enterprise is here to provide a platform that combines smart web design with cutting-edge business principles 
+					to make your website incredibly attractive, user-friendly, and customer-friendly.</p>
+				  </div>
+				</div>
+			</div>
+			<div class = "col-md-3">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="images/service4.svg" alt="Card image cap" style = "padding:2%; width:100%; height:200px">
+				  <div class="card-body">
+					<h5>Mobile App Development</h5>
+					<p class="card-text">We develop customised mobile apps. This covers expert business analysis, design/development of your 
+					mobile app, integration of the new product, and on-demand optimization and scaling-up.</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class =  "container">
+		<div class = "row contactus" id="contactus">
+			<div class = "col-md-12" style = "text-align:center;">
+				<h2>Contact US</h2>
+			</div>
+			<div class = "col-md-8">
+				<form>
+				  <div class="form-group row">
+					<label for="staticEmail" class="col-sm-4 col-form-label">Email</label>
+					<div class="col-sm-8">
+					  <input type="email" class="form-control" id="staticEmail" placeholder="Email Id">
+					</div>
+				  </div>
+				  <div class="form-group row">
+					<label for="inputPassword" class="col-sm-4 col-form-label">Password</label>
+					<div class="col-sm-8">
+					  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+					</div>
+				  </div>
+				  <div class="form-group row">
+					<label for="inputPassword" class="col-sm-4 col-form-label">Mobile number</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control" id="inputPassword" placeholder="Mobile">
+					</div>
+				  </div>
+				  <div class="form-group row">
+					<label for="exampleFormControlTextarea1" class="col-sm-4 col-form-label">Message</label>
+					<div class="col-sm-8">
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					
+				  </div>
+				   <div class="form-group row">
+					<div class = "col-md-12" style = "text-align:center; margin-left:10%;">
+						<button type="submit" class="btn btn-primary mb-2">Submit</button>
+						<button type="reset" class="btn btn-success mb-2">Reset</button>
+					</div>
+						
+				  </div>
+				</form>
+			</div>
+			
+			<div class = "col-md-4" style = "margin-top:1%">
+				<h5>Address Details</h5>
+				<p>Bhiwandi Nashik - 422030</p>
+				<p>+919819892440</p>
+				<p>contact@ojasenterprises.in</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class = "container-fluid">
+		<div class = "row jumbotron">
+			<div class = "col-md-12">
+				<p style="text-align:center; margin-top:3%">Copyright © 2022. All rights reserved. @ Ojas Enterprises</p>
+			</div>
+		</div>
+	</div>
+
+</html>
+
